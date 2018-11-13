@@ -1,12 +1,11 @@
 Name:       azure_metrics_exporter
-Summary:    Most simple RPM package
 Version:    1
 Release:    1
-License:    BEDE
-
+Summary:    Most simple RPM package
+License:    FIXME
 
 %description
-azure_metrics_exporter
+This is my first RPM package, which does nothing.
 
 %prep
 # we have no source, so nothing here
@@ -15,7 +14,7 @@ azure_metrics_exporter
 
 %install
 mkdir -p %{buildroot}/usr/bin/
-install -m 755 %{_topdir}/azure_metrics_exporter %{buildroot}/usr/bin/azure-metrics-exporter
+install -m 755 azure_metrics_exporter %{buildroot}/usr/bin/azure_metrics_exporter
 
 %files
 /usr/bin/azure_metrics_exporter
