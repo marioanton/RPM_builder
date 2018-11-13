@@ -4,26 +4,27 @@
 %define         _verstr      0.0.1
 %endif
 
-Name:       azure_metrics_exporter
+Name:       azure-metrics-exporter
 Version:        %{_verstr}
 Release:        1%{?dist}
 Summary:    Azure Metrics Exporter
-License:    FIXME
+License:    BEDE
 
 %description
  Azure Metrics Exporter
  
 %prep
-# we have no source, so nothing here
+# nothing to do here
 
 %build
+# nothing to do here
 
 %install
 mkdir -p %{buildroot}/usr/bin/
-install -m 755 azure_metrics_exporter %{buildroot}/usr/bin/azure_metrics_exporter
+install -m 755 azure-metrics-exporter %{buildroot}/usr/bin/azure-metrics-exporter
 
 %files
-/usr/bin/azure_metrics_exporter
+/usr/bin/azure-metrics-exporter
 
 %changelog
 # let skip this for now
