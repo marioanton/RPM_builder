@@ -1,5 +1,7 @@
 Name:       azure_metrics_exporter
 Summary:    Most simple RPM package
+Version:    1
+Release:    1
 License:    BEDE
 
 
